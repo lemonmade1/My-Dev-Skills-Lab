@@ -17,7 +17,7 @@ $btn.on('click', (e) => {
 	let $ul = $('ul');
 
   // APPENDS THE LI TO THE UL
-	$ul.append($li);
+  let $info = $ul.append(`<li><button class="remove">X</button> ${$input}</li>`);
 
   // RESETS MY INPUT
   $(':input').val('') 
@@ -27,6 +27,10 @@ $btn.on('click', (e) => {
       $(this).remove();
     });
   });
+
+  // if ($input.val() === '') {
+  //   $('#addSkill').attr('disabled', true);
+  // } 
 
 });
 
