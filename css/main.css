@@ -1,0 +1,25 @@
+li {
+  margin: 10px 0;
+}
+  
+button.remove {
+  background-color: rgb(222, 105, 107);
+  color: white;
+  border-color: transparent;
+  padding: 7px 10px;
+  margin-right: 5px;
+}
+
+input {
+  width: 63%;
+  border: 3px solid rgb(141, 184, 122);
+  padding: 5px 10px; 
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
