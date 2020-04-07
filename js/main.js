@@ -23,7 +23,7 @@ $btn.on('click', (e) => {
   } 
 
   // APPENDS THE LI TO THE UL
-  let $info = $ul.append(`<li><button class="remove">X</button> ${$input}</li>`);
+  $ul.append(`<li><button class="remove">X</button> ${$input}</li>`);
 
   // RESETS MY INPUT
   $(':input').val('') 
